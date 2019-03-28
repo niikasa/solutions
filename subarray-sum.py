@@ -1,3 +1,4 @@
+
 """
 #42
 Google
@@ -42,5 +43,8 @@ def main():
     targetSum = 24
     print(findSubArrWithSum(arr,targetSum))
 
+# Special variable "__name__" is set to "__main__" if subarray-sum.py is
+# directly executed.
+# If subarray-sum.py is imported, special variable "__name__" is not populated.
 if __name__ == "__main__":
     main()
