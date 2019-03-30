@@ -22,8 +22,8 @@ def find2Num(list,k):
             return flag
 
 def main():
-    list = [10, 2, 4, 15, 8, 8, 3, 7]
-    k = 100
+    list = [10, 15, 3, 7]
+    k = 17
 #    print("List is {} ".format(list))
     find2Num(list,k)
     if flag == False:
