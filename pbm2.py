@@ -25,7 +25,7 @@ def findNewArr(arr,newArr):
 
 
 def main():
-    arr = [6, 5, 13, 4, 5]
+    arr = [1, 2, 3, 4, 5]
     newArr = arr.copy()
     findNewArr(arr,newArr)
     print("Given array is {}".format(arr))
